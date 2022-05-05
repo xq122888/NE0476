@@ -17,7 +17,7 @@
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
-#include "main.h"
+#include "main.h"//
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -272,9 +272,9 @@ int main(void)
 //			HAL_GPIO_WritePin(TEST_LED1_GPIO_Port, TEST_LED1_Pin, GPIO_PIN_SET);
 //			if (USBPD_OK == USBPD_PHY_DecodeMessage(&gPhyRcvMsg))
 //			{
-//				//1. ½« MSG ´«ÊäÖÁÐ­Òé²ã
+//				//1. ï¿½ï¿½ MSG ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð­ï¿½ï¿½ï¿½
 //				USBPD_GetMessage(&gPhyRcvMsg, &gPrlRcvMsg);
-//				//2. ¸ù¾Ý MSG ÀàÐÍ»Ø¸´²»Í¬µÄÄÚÈÝ	
+//				//2. ï¿½ï¿½ï¿½ï¿½ MSG ï¿½ï¿½ï¿½Í»Ø¸ï¿½ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½	
 //        msgType = USBPD_GetReceivedMsgType(&gPrlRcvMsg);
 ////        if ((msgType != USBPD_MSG_GOODCRC))					
 ////				{
