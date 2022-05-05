@@ -225,7 +225,7 @@ int main(void)
   gPreviousState = StateStartup;  
 	gCurrentState = StateStartup; 
 	(*SM_Table[gCurrentState].hStateEntry)(eventInfo.eventId, eventInfo.param1);
-	USBPD_Send_HardReset();
+//	USBPD_Send_HardReset();
 	while (1)
   {
 		if (gPDEn)

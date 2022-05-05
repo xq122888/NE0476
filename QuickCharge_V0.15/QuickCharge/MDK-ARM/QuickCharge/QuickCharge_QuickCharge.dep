@@ -651,7 +651,7 @@ I (../Core/Inc/measure.h)(0x622EEF42)
 I (../Core/Inc/timer.h)(0x621EC714)
 I (../Core/Inc/global.h)(0x62304449)
 I (../Core/Inc/system_def.h)(0x62302A5D)
-F (../Core/Src/main.c)(0x625E680F)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy-I.\RTE\_QuickCharge-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.2.1\Drivers\CMSIS\Device\ST\STM32F3xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F303xC -D_RTE_ -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER-o quickcharge\main.o --omf_browse quickcharge\main.crf --depend quickcharge\main.d)
+F (../Core/Src/main.c)(0x62737823)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy-I.\RTE\_QuickCharge-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.2.1\Drivers\CMSIS\Device\ST\STM32F3xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F303xC -D_RTE_ -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER-o quickcharge\main.o --omf_browse quickcharge\main.crf --depend quickcharge\main.d)
 I (../Core/Inc/main.h)(0x62593BAB)
 I (../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h)(0x61E1068D)
 I (../Core/Inc/stm32f3xx_hal_conf.h)(0x6259368B)
