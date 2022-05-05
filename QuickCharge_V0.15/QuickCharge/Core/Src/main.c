@@ -182,7 +182,7 @@ int main(void)
 //	HAL_DAC_SetValue(&hdac, DAC_CHANNEL_1, DAC_ALIGN_12B_R, 1024);
 //	HAL_DAC_Start(&hdac, DAC_CHANNEL_1);
 //	HAL_COMP_Start(&hcomp1);
-//	HAL_Delay(1);
+	HAL_Delay(1);
 //	__HAL_TIM_SET_CAPTUREPOLARITY(&htim4, TIM_CHANNEL_1, TIM_INPUTCHANNELPOLARITY_BOTHEDGE);
 //	HAL_TIM_IC_Start(&htim4, TIM_CHANNEL_1);
 	
@@ -272,9 +272,9 @@ int main(void)
 //			HAL_GPIO_WritePin(TEST_LED1_GPIO_Port, TEST_LED1_Pin, GPIO_PIN_SET);
 //			if (USBPD_OK == USBPD_PHY_DecodeMessage(&gPhyRcvMsg))
 //			{
-//				//1. ½« MSG ´«ÊäÖÁÐ­Òé²ã
+//				//1. ï¿½ï¿½ MSG ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð­ï¿½ï¿½ï¿½
 //				USBPD_GetMessage(&gPhyRcvMsg, &gPrlRcvMsg);
-//				//2. ¸ù¾Ý MSG ÀàÐÍ»Ø¸´²»Í¬µÄÄÚÈÝ	
+//				//2. ï¿½ï¿½ï¿½ï¿½ MSG ï¿½ï¿½ï¿½Í»Ø¸ï¿½ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½	
 //        msgType = USBPD_GetReceivedMsgType(&gPrlRcvMsg);
 ////        if ((msgType != USBPD_MSG_GOODCRC))					
 ////				{
